@@ -1,9 +1,85 @@
-header .header {
-  width: 100vw;
+.header {
+  width: 100%;
   height: 100vh;
-  background-image: url("../image/assets/Screenshot 2021-05-10 at 10.22 1.png");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#000000), to(rgba(0, 0, 0, 0))), url("../public/image/assets/v1.png");
+  background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)), url("../public/image/assets/v1.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header .navigation {
+  display: block;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.header .navigation ul {
+  list-style-type: none;
+  margin: 0 65px 0 65px;
+  padding: 0;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navigation ul li {
+  float: left;
+}
+
+.header .navigation ul li:first-child {
+  margin-top: 75px;
+}
+
+.header .navigation ul li:nth-child(2) {
+  margin-top: 61px;
+}
+
+.header .navigation ul li:last-child {
+  margin-top: 63px;
+}
+
+.header .navigation ul li .navbar {
+  margin: 14px 0 14px 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 0.8;
+}
+
+.header .navigation ul li .logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header .navigation ul li .header_btn {
+  width: 198px;
+  height: 41px;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  margin: 2px 0 3px 0;
+  padding: 12px 28px 13px;
+  background-color: #ffffff30;
+}
+
+.header .navigation ul li .header_btn .span {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.91px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .footer {

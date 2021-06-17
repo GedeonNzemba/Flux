@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Fragment } from 'react'
-import styles from '../styles/Global.module.scss'
+import styles from '../styles/Global.module.css'
 import Header from './components/Header'
 
 export default function Home() {
@@ -11,6 +11,9 @@ export default function Home() {
         <title>Miavana</title>
         <meta name="description" content="Island Sanctuary" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        {/* eslint-disable-next-line @next/next/no-page-custom-font */}
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap" rel="stylesheet" />
       </Head>
 
       <Header />
