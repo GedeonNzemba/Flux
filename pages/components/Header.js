@@ -27,6 +27,30 @@ function Header() {
                         </li>
                     </ul>
                 </nav>
+                <div className={styles.header_content}>
+                    <center>
+                        <div className={styles.__innerContent}>
+                            <div className={styles.__graphicSVG}>
+                                <div className={styles.headerGraphicSVG}>
+                                    <Image src="/image/assets/Group31.png" alt="graphic image" width={46} height={46} />
+                                </div>
+                            </div>
+                            <div className={styles.__contentTitle}>
+                                <h5>a remote island sanctuary</h5>
+                            </div>
+                            <div className={styles.__contentText}>
+                                <p>
+                                    {/* eslint-disable-next-line react/no-unescaped-entities */}
+                                    Sink your feet into the pearly sands of a remote island sanctuary where you'll taste sweet
+                                    jasmine on the breeze while gazing at a thousand sparkling shades of turquoise.
+                                </p>
+                            </div>
+                            <div className={styles.__contentScroll}>
+                                <Image className={styles.pageScroll} src="/image/assets/Group48.png" alt="scroll down graphic" width={41} height={41} />
+                            </div>
+                        </div>
+                    </center>
+                </div>
             </header>
         </Fragment>
     )

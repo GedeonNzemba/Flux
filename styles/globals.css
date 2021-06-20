@@ -49,3 +49,32 @@ p {
 * {
   box-sizing: border-box;
 }
+.MuiInput-underline::before {
+  border-bottom: 1px solid #ffffff !important;
+}
+
+.MuiInput-underline::after {
+  border-bottom: 1px solid #d76a43 !important;
+}
+.MuiInputLabel-formControl {
+  top: -10px !important;
+}
+.removeTop {
+  top: 0!important;
+}
+.__itemsIcon .iconLight {
+object-fit: contain!important;
+opacity: 0.63!important;
+mix-blend-mode: lighten!important;
+}
+.curser:hover {
+  cursor: pointer;
+}
+.__submit:hover {
+  cursor: pointer;
+}
+.__itemText:hover {
+  cursor: pointer;
+}
+     
+ 
