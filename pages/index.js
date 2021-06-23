@@ -4,6 +4,7 @@ import { Fragment } from 'react'
 import styles from '../styles/Global.module.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Main from './components/Main'
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
 
       <Header />
 
-      <footer className={styles.footerb}>
+      {/* <footer className={styles.footerb}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -30,7 +31,8 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer> */}
+      <Main />
 
       <Footer />
     </Fragment>

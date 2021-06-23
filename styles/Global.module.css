@@ -235,6 +235,1055 @@
   margin-left: 0.5rem;
 }
 
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.main .compHistory {
+  width: 100%;
+  margin-top: 138px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .compHistory .historyInfo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1.5fr 2fr;
+      grid-template-columns: 1.5fr 2fr;
+  -webkit-column-gap: 8em;
+          column-gap: 8em;
+  margin: 0 125px;
+}
+
+.main .compHistory .historyInfo .__titleInfo {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.main .compHistory .historyInfo .__titleInfo span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 1.47px;
+  text-align: left;
+  color: #000000;
+}
+
+.main .compHistory .historyInfo .__titleInfo h4 {
+  margin-top: 19px;
+  font-family: Didot;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #007078;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+.main .compHistory .historyInfo .__contentText {
+  display: block;
+}
+
+.main .compHistory .historyInfo .__contentText p {
+  margin-bottom: 34px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #51555b;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+.main .compHistory .historyInfo .__contentText .discoverOurstory {
+  margin-top: 34px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #25272b;
+  position: relative;
+  text-transform: capitalize;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.main .compHistory .historyInfo .__contentText .discoverOurstory:hover {
+  cursor: pointer;
+}
+
+.main .compHistory .historyInfo .__contentText .discoverOurstory::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  height: 2px;
+  background-color: #c98551;
+}
+
+.main .compHistory .storyTypes {
+  display: block;
+  position: relative;
+  height: auto;
+}
+
+.main .compHistory .storyTypes .storyTypesWrapper {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 118px 125px 300px 125px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.main .compHistory .storyTypes .storyTypesWrapper .storyItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+}
+
+.main .compHistory .storyTypes .storyTypesWrapper .storyItem .__image {
+  display: block;
+  margin-bottom: 9px;
+}
+
+.main .compHistory .storyTypes .storyTypesWrapper .storyItem .__content {
+  display: block;
+}
+
+.main .compHistory .storyTypes .storyTypesWrapper .storyItem .__content span {
+  font-family: Didot;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #007078;
+}
+
+.main .compHistory .storyTypes .storyTypesWrapper .storyItem .__content .__contentText {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 9px;
+  color: #51555b;
+}
+
+.main .compHistory .storyTypes .storyTypesWrapper #storyDividerLine {
+  width: 1px;
+  height: 218px;
+  margin-left: 61px;
+  margin-right: 54px;
+  opacity: 0.4;
+  background-color: #007078;
+}
+
+.main .compHistory .storyTypes .__leftGraphic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.main .compHistory .storyTypes .__rightGraphic {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.invitationBanner {
+  display: block;
+  position: relative;
+  z-index: 1;
+  background-image: url("../public/image/assets/Rectangle28.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 666px;
+}
+
+.invitationBanner .invitationInfoCard {
+  position: absolute;
+  z-index: 999;
+  padding: 53px 57px 64px 63px;
+  background-color: #34998e;
+  top: 278px;
+  right: 124px;
+  width: 626px;
+  height: 475px;
+}
+
+.invitationBanner .invitationInfoCard span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 1.47px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.invitationBanner .invitationInfoCard h3 {
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.55px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  margin-bottom: 45px;
+}
+
+.invitationBanner .invitationInfoCard p {
+  word-wrap: break-word;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  margin-bottom: 38px;
+}
+
+.invitationBanner .invitationInfoCard .discoverMiavana {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.invitationBanner .invitationInfoCard .discoverMiavana:hover {
+  cursor: pointer;
+}
+
+.invitationBanner .invitationInfoCard .discoverMiavana::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  height: 2px;
+  background-color: #c98551;
+}
+
+.LuxuryPlaces {
+  display: block;
+  max-width: 100%;
+  position: relative;
+}
+
+.LuxuryPlaces .graphicWrap {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  bottom: -50px;
+  left: 0;
+  z-index: -1;
+}
+
+.LuxuryPlaces .graphicWrap img {
+  width: 865.8px !important;
+  height: 393px !important;
+}
+
+.LuxuryPlaces .luxuryContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+  height: auto;
+  margin: 248px 125px 0 125px;
+}
+
+.LuxuryPlaces .luxuryContainer .villasWrapper {
+  display: block;
+}
+
+.LuxuryPlaces .luxuryContainer .villasWrapper .imageWrap {
+  display: block;
+  margin-bottom: 29px;
+}
+
+.LuxuryPlaces .luxuryContainer .villasWrapper .imageWrap img {
+  width: 557px !important;
+  height: 654px !important;
+}
+
+.LuxuryPlaces .luxuryContainer .villasWrapper .content {
+  display: block;
+}
+
+.LuxuryPlaces .luxuryContainer .villasWrapper .content h2 {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1.55px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 21px;
+}
+
+.LuxuryPlaces .luxuryContainer .villasWrapper .content .exploreOurVillas {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #25272b;
+}
+
+.LuxuryPlaces .luxuryContainer .villasWrapper .content .exploreOurVillas:hover {
+  cursor: pointer;
+}
+
+.LuxuryPlaces .luxuryContainer .villasWrapper .content .exploreOurVillas::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  height: 2px;
+  background-color: #c98551;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 25px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .__titleInfo {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 81px;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .__titleInfo span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 1.47px;
+  text-align: left;
+  color: #000000;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .__titleInfo h4 {
+  margin-top: 19px;
+  font-family: Didot;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #007078;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .exploreContainer {
+  display: block;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .exploreContainer .imageWrap {
+  display: block;
+  margin-bottom: 29px;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .exploreContainer .imageWrap img {
+  width: 563px !important;
+  height: 655px !important;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .exploreContainer .content {
+  display: block;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .exploreContainer .content h2 {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1.55px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 21px;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .exploreContainer .content .exploreOurVillas {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #25272b;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .exploreContainer .content .exploreOurVillas:hover {
+  cursor: pointer;
+}
+
+.LuxuryPlaces .luxuryContainer .exclusiveWrapper .exploreContainer .content .exploreOurVillas::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  height: 2px;
+  background-color: #c98551;
+}
+
+.Explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 115px;
+}
+
+.Explore .exploreContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.Explore .exploreContainer .exploreTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
+  margin-bottom: 61px;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.Explore .exploreContainer .exploreTitle .__subtitle {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.Explore .exploreContainer .exploreTitle .__subtitle span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 1.47px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.Explore .exploreContainer .exploreTitle .__title {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.Explore .exploreContainer .exploreTitle .__title h4 {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  margin-top: 13px;
+  font-family: Didot;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #007078;
+}
+
+.Explore .exploreContainer .exploreTypesWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+  height: auto;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.Explore .exploreContainer .exploreTypesWrapper .exploreItem {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.Explore .exploreContainer .exploreTypesWrapper .exploreItem .imageWrap {
+  display: block;
+  margin-bottom: 26px;
+}
+
+.Explore .exploreContainer .exploreTypesWrapper .exploreItem .imageWrap img {
+  width: 349px;
+  height: 392px;
+}
+
+.Explore .exploreContainer .exploreTypesWrapper .exploreItem .contentWrap {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.Explore .exploreContainer .exploreTypesWrapper .exploreItem .contentWrap h2 {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  margin-bottom: 15px;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1.15px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.Explore .exploreContainer .exploreTypesWrapper .exploreItem .contentWrap p {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #51555b;
+}
+
+.Explore .exploreContainer .wrapper {
+  display: block;
+  margin-top: 52px;
+  position: relative;
+  margin-bottom: 234px;
+}
+
+.Explore .exploreContainer .wrapper .exploreExperience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.Explore .exploreContainer .wrapper .exploreExperience .exploreOurExperiences {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  text-transform: capitalize;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #25272b;
+}
+
+.Explore .exploreContainer .wrapper .exploreExperience .exploreOurExperiences:hover {
+  cursor: pointer;
+}
+
+.Explore .exploreContainer .wrapper .exploreExperience .exploreOurExperiences::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  height: 2px;
+  background-color: #c98551;
+}
+
+.Explore .exploreContainer .wrapper .__rightGraphic {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transform: scaleX(-1) rotate(28deg);
+          transform: scaleX(-1) rotate(28deg);
+  position: absolute;
+  right: -138px;
+}
+
+.Explore .exploreBanner {
+  display: block;
+  position: relative;
+  z-index: 1;
+  background-image: url("../public/image/assets/Rectangle31.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+}
+
+.Explore .exploreBanner .exploreInfoCard {
+  position: absolute;
+  z-index: 999;
+  padding: 53px 57px 64px 63px;
+  background-color: #34998e;
+  top: 358px;
+  left: 125px;
+  width: 626px;
+  height: 466px;
+}
+
+.Explore .exploreBanner .exploreInfoCard span {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 1.47px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.Explore .exploreBanner .exploreInfoCard h3 {
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.55px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  margin-bottom: 45px;
+}
+
+.Explore .exploreBanner .exploreInfoCard p {
+  word-wrap: break-word;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  margin-bottom: 38px;
+}
+
+.Explore .exploreBanner .exploreInfoCard .discoverMadagascar {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.Explore .exploreBanner .exploreInfoCard .discoverMadagascar:hover {
+  cursor: pointer;
+}
+
+.Explore .exploreBanner .exploreInfoCard .discoverMadagascar::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  height: 2px;
+  background-color: #c98551;
+}
+
+.OurValues {
+  max-width: 100%;
+  margin: 167px 115px 0 115px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 62px;
+          column-gap: 62px;
+}
+
+.OurValues .imageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 584px;
+}
+
+.OurValues .imageContainer .imageWrap:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 38px;
+}
+
+.OurValues .imageContainer .imageWrap:first-child .imageStack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 38px;
+}
+
+.OurValues .imageContainer .imageWrap:first-child .imageStack .imageItem {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: block;
+}
+
+.OurValues .imageContainer .imageWrap:first-child .imageStack .imageItem:first-child {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.OurValues .imageContainer .imageWrap:first-child .imageStack .imageItem:first-child div:first-child {
+  float: right;
+}
+
+.OurValues .imageContainer .imageWrap:first-child .imageStack .imageItem:last-child {
+  display: block;
+}
+
+.OurValues .imageContainer .imageWrap:first-child .imageStack .imageItem:last-child img {
+  width: 245px !important;
+  height: 202px !important;
+}
+
+.OurValues .imageContainer .imageWrap:first-child .imageItem {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: block;
+}
+
+.OurValues .imageContainer .imageWrap:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.OurValues .imageContainer .imageWrap:last-child .imageItem:first-child {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 66px;
+  padding-right: 45px;
+}
+
+.OurValues .contentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.OurValues .contentContainer span {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 1.47px;
+  text-align: left;
+  color: #1f1f1f;
+}
+
+.OurValues .contentContainer .contentWrap {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 14px;
+}
+
+.OurValues .contentContainer .contentWrap h4 {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.55px;
+  text-align: left;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.OurValues .contentContainer .contentWrap p {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  margin-top: 23px;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #51555b;
+  margin-bottom: 21px;
+}
+
+.OurValues .contentContainer .learnMore {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-align: center;
+  color: #25272b;
+  text-transform: capitalize;
+}
+
+.OurValues .contentContainer .learnMore:hover {
+  cursor: pointer;
+}
+
+.OurValues .contentContainer .learnMore::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  height: 2px;
+  background-color: #c98551;
+}
+
 .footer {
   width: 100%;
   margin: 104px 0 0;

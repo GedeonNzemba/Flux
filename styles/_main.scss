@@ -23,3 +23,835 @@
     height: 1em;
     margin-left: 0.5rem;
 }
+// MAIN PAGE
+.main {
+    width: 100%;
+    height: 100%;
+    & .compHistory {
+        width: 100%;
+        margin-top: 138px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        // height: 700px;
+
+        & .historyInfo {
+            display: grid;
+            grid-template-columns: 1.5fr 2fr;
+            column-gap: 8em;
+            margin: 0 125px;
+            & .__titleInfo {
+                display: block;
+                width: fit-content;
+                & span {
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.6;
+                    letter-spacing: 1.47px;
+                    text-align: left;
+                    color: $black;
+                }
+                & h4 {
+                    margin-top: 19px;
+                    font-family: Didot;
+                    font-size: 42px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: italic;
+                    line-height: 1.2;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: $solidgreenish;
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                }
+            }
+            & .__contentText {
+                display: block;
+                & p {
+                    margin-bottom: 34px;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.88;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: $verylightblack;
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                }
+                & .discoverOurstory {
+                    margin-top: 34px;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.32px;
+                    text-align: center;
+                    color: $lightblack;
+                    position: relative;
+                    text-transform: capitalize;
+                    width: fit-content;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    &::after {
+                        content: "";
+                        width: 100%;
+                        position: absolute;
+                        left: 0;
+                        bottom: -11px;
+                        height: 2px;
+                        background-color: $lightorange;
+                    }
+                }
+            }
+        }
+        & .storyTypes {
+            display: block;
+            position: relative;
+            height: auto;
+            & .storyTypesWrapper {
+                height: auto;
+                display: flex;
+                margin: 118px 125px 300px 125px;
+                align-items: start;
+
+                & .storyItem {
+                    display: flex;
+                    flex-direction: column;
+                    width: fit-content;
+                    height: auto;
+                    & .__image {
+                        display: block;
+                        margin-bottom: 9px;
+                    }
+                    & .__content {
+                        display: block;
+                        & span {
+                            font-family: Didot;
+                            font-size: 24px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: italic;
+                            line-height: 1.2;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: $solidgreenish;
+                        }
+                        & .__contentText {
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: normal;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.71;
+                            letter-spacing: normal;
+                            text-align: left;
+                            margin-top: 9px;
+                            color: $verylightblack;
+                        }
+                    }
+                }
+                & #storyDividerLine {
+                    width: 1px;
+                    height: 218px;
+                    margin-left: 61px;
+                    margin-right: 54px;
+                    opacity: 0.4;
+
+                    background-color: $solidgreenish;
+                }
+            }
+
+            & .__leftGraphic {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+            & .__rightGraphic {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+}
+
+.invitationBanner {
+    display: block;
+    position: relative;
+    z-index: 1;
+    background-image: url("../public/image/assets/Rectangle28.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 666px;
+
+    & img {
+        // width: 100vw !important;
+        // height: 666px !important;
+    }
+    & .invitationInfoCard {
+        position: absolute;
+        z-index: 999;
+        padding: 53px 57px 64px 63px;
+        background-color: $lightgreenish;
+        top: 278px;
+        right: 124px;
+        width: 626px;
+        height: 475px;
+        & span {
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.6;
+            letter-spacing: 1.47px;
+            text-align: left;
+            color: $white;
+            text-transform: uppercase;
+        }
+        & h3 {
+            font-family: Montserrat;
+            font-size: 31px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 1.55px;
+            text-align: left;
+            color: $white;
+            text-transform: uppercase;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            margin-bottom: 45px;
+        }
+        & p {
+            word-wrap: break-word;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: left;
+            color: $white;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            margin-bottom: 38px;
+        }
+        & .discoverMiavana {
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.32px;
+            text-align: center;
+            color: $white;
+            position: relative;
+            width: fit-content;
+            &:hover {
+                cursor: pointer;
+            }
+            &::after {
+                content: "";
+                width: 100%;
+                position: absolute;
+                left: 0;
+                bottom: -11px;
+                height: 2px;
+                background-color: $lightorange;
+            }
+        }
+    }
+}
+
+// LUXURY PLACES
+.LuxuryPlaces {
+    display: block;
+
+    max-width: 100%;
+    position: relative;
+    & .graphicWrap {
+        position: absolute;
+        width: fit-content;
+        bottom: -50px;
+        left: 0;
+        z-index: -1;
+        // margin-top: 139px;
+        & img {
+            width: 865.8px !important;
+            height: 393px !important;
+        }
+    }
+    & .luxuryContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 70px;
+        height: auto;
+        margin: 248px 125px 0 125px;
+        & .villasWrapper {
+            display: block;
+            & .imageWrap {
+                display: block;
+                margin-bottom: 29px;
+                & img {
+                    width: 557px !important;
+                    height: 654px !important;
+                }
+            }
+            & .content {
+                display: block;
+                & h2 {
+                    text-transform: uppercase;
+                    font-family: Montserrat;
+                    font-size: 31px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.2;
+                    letter-spacing: 1.55px;
+                    text-align: left;
+                    color: $black;
+                    margin-bottom: 21px;
+                }
+                & .exploreOurVillas {
+                    width: fit-content;
+                    position: relative;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.32px;
+                    text-align: center;
+                    color: $lightblack;
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    &::after {
+                        content: "";
+                        width: 100%;
+                        position: absolute;
+                        left: 0;
+                        bottom: -11px;
+                        height: 2px;
+                        background-color: $lightorange;
+                    }
+                }
+            }
+        }
+        & .exclusiveWrapper {
+            display: flex;
+            flex-direction: column;
+            padding-top: 25px;
+            justify-content: space-between;
+            & .__titleInfo {
+                display: block;
+                width: fit-content;
+                margin-bottom: 81px;
+                & span {
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.6;
+                    letter-spacing: 1.47px;
+                    text-align: left;
+                    color: $black;
+                }
+                & h4 {
+                    margin-top: 19px;
+                    font-family: Didot;
+                    font-size: 42px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: italic;
+                    line-height: 1.2;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: $solidgreenish;
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                }
+            }
+
+            & .exploreContainer {
+                display: block;
+                & .imageWrap {
+                    display: block;
+                    margin-bottom: 29px;
+                    & img {
+                        width: 563px !important;
+                        height: 655px !important;
+                    }
+                }
+                & .content {
+                    display: block;
+                    & h2 {
+                        text-transform: uppercase;
+                        font-family: Montserrat;
+                        font-size: 31px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.2;
+                        letter-spacing: 1.55px;
+                        text-align: left;
+                        color: $black;
+                        margin-bottom: 21px;
+                    }
+                    & .exploreOurVillas {
+                        width: fit-content;
+                        position: relative;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: 0.32px;
+                        text-align: center;
+                        color: $lightblack;
+                        &:hover {
+                            cursor: pointer;
+                        }
+
+                        &::after {
+                            content: "";
+                            width: 100%;
+                            position: absolute;
+                            left: 0;
+                            bottom: -11px;
+                            height: 2px;
+                            background-color: $lightorange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// EXPLORE
+.Explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 115px;
+
+    & .exploreContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        overflow: hidden;
+
+        & .exploreTitle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 100%;
+            margin-bottom: 61px;
+            margin-left: 125px;
+            margin-right: 125px;
+            & .__subtitle {
+                display: block;
+                width: fit-content;
+                height: fit-content;
+                align-self: center;
+                & span {
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.6;
+                    letter-spacing: 1.47px;
+                    text-align: center;
+                    color: $black;
+                    text-transform: uppercase;
+                }
+            }
+            & .__title {
+                display: block;
+                width: fit-content;
+                align-self: center;
+                & h4 {
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                    margin-top: 13px;
+                    font-family: Didot;
+                    font-size: 42px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: italic;
+                    line-height: 1.2;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $solidgreenish;
+                }
+            }
+        }
+        & .exploreTypesWrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 70px;
+            height: auto;
+            margin-left: 125px;
+            margin-right: 125px;
+            // display: grid;
+            // grid-template-columns: repeat(3, 349px);
+            // column-gap: 70px;
+            // height: auto;
+            // /* margin-left: 125px; */
+            // /* margin-right: 125px; */
+            // max-width: min-content;
+            // align-items: center;
+            // justify-items: center;
+            // width: 100%;
+            // margin: 0 auto;
+            & .exploreItem {
+                width: fit-content;
+                & .imageWrap {
+                    display: block;
+                    margin-bottom: 26px;
+                    & img {
+                        width: 349px;
+                        height: 392px;
+                    }
+                }
+                & .contentWrap {
+                    display: block;
+                    width: fit-content;
+                    & h2 {
+                        margin-block-start: 0;
+                        margin-block-end: 0;
+                        margin-bottom: 15px;
+                        font-family: Montserrat;
+                        font-size: 23px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.2;
+                        letter-spacing: 1.15px;
+                        text-align: left;
+                        color: $black;
+                        text-transform: uppercase;
+                    }
+                    & p {
+                        margin-block-start: 0;
+                        margin-block-end: 0;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: normal;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.71;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: $verylightblack;
+                    }
+                }
+            }
+        }
+
+        & .wrapper {
+            display: block;
+            margin-top: 52px;
+            position: relative;
+            margin-bottom: 234px;
+
+            & .exploreExperience {
+                display: flex;
+                justify-content: center;
+                max-width: 100%;
+                margin-left: 125px;
+                margin-right: 125px;
+
+                & .exploreOurExperiences {
+                    width: fit-content;
+                    position: relative;
+                    text-transform: capitalize;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.32px;
+                    text-align: center;
+                    color: $lightblack;
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    &::after {
+                        content: "";
+                        width: 100%;
+                        position: absolute;
+                        left: 0;
+                        bottom: -11px;
+                        height: 2px;
+                        background-color: $lightorange;
+                    }
+                }
+            }
+            & .__rightGraphic {
+                width: fit-content;
+                transform: scaleX(-1) rotate(28deg);
+                position: absolute;
+                right: -138px;
+            }
+        }
+    }
+
+    .exploreBanner {
+        display: block;
+        position: relative;
+        z-index: 1;
+        background-image: url("../public/image/assets/Rectangle31.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 750px;
+
+        & img {
+            // width: 100vw !important;
+            // height: 666px !important;
+        }
+        & .exploreInfoCard {
+            position: absolute;
+            z-index: 999;
+            padding: 53px 57px 64px 63px;
+            background-color: $lightgreenish;
+            top: 358px;
+            left: 125px;
+            width: 626px;
+            height: 466px;
+            & span {
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.6;
+                letter-spacing: 1.47px;
+                text-align: left;
+                color: $white;
+                text-transform: uppercase;
+            }
+            & h3 {
+                font-family: Montserrat;
+                font-size: 31px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.55px;
+                text-align: left;
+                color: $white;
+                text-transform: uppercase;
+                margin-inline-start: 0;
+                margin-inline-end: 0;
+                margin-bottom: 45px;
+            }
+            & p {
+                word-wrap: break-word;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                text-align: left;
+                color: $white;
+                margin-inline-start: 0;
+                margin-inline-end: 0;
+                margin-bottom: 38px;
+            }
+            & .discoverMadagascar {
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.32px;
+                text-align: center;
+                color: $white;
+                position: relative;
+                width: fit-content;
+                &:hover {
+                    cursor: pointer;
+                }
+                &::after {
+                    content: "";
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    bottom: -11px;
+                    height: 2px;
+                    background-color: $lightorange;
+                }
+            }
+        }
+    }
+}
+
+// OUR VALUES
+.OurValues {
+    max-width: 100%;
+    margin: 167px 115px 0 115px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 62px;
+
+    & .imageContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 584px;
+
+        & .imageWrap:first-child {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 38px;
+            & .imageStack {
+                display: flex;
+                justify-content: flex-end;
+                flex-direction: column;
+                width: fit-content;
+                margin-right: 38px;
+                & .imageItem {
+                    width: fit-content;
+                    height: fit-content;
+                    display: block;
+                    &:first-child {
+                        width: 100%;
+                        margin-bottom: 40px;
+                        & div:first-child {
+                            float: right;
+                        }
+                    }
+                    &:last-child {
+                        display: block;
+                        & img {
+                            width: 245px !important;
+                            height: 202px !important;
+                        }
+                    }
+                }
+            }
+            & .imageItem {
+                width: fit-content;
+                height: fit-content;
+                display: block;
+            }
+        }
+        & .imageWrap:last-child {
+            display: flex;
+            justify-content: flex-end;
+            & .imageItem:first-child {
+                height: fit-content;
+                padding-top: 66px;
+                padding-right: 45px;
+            }
+        }
+    }
+
+    & .contentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        & span {
+            text-transform: uppercase;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.6;
+            letter-spacing: 1.47px;
+            text-align: left;
+            color: $lightsolidblack;
+        }
+        & .contentWrap {
+            display: block;
+            width: fit-content;
+            margin-top: 14px;
+            & h4 {
+                margin-block-start: 0;
+                margin-block-end: 0;
+                font-family: Montserrat;
+                font-size: 31px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 1.55px;
+                text-align: left;
+                color: $black;
+                text-transform: uppercase;
+            }
+            & p {
+                margin-block-start: 0;
+                margin-top: 23px;
+                margin-block-end: 0;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                text-align: left;
+                color: $verylightblack;
+                margin-bottom: 21px;
+            }
+        }
+
+        & .learnMore {
+            width: fit-content;
+            position: relative;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.32px;
+            text-align: center;
+            color: $lightblack;
+            text-transform: capitalize;
+            &:hover {
+                cursor: pointer;
+            }
+            &::after {
+                content: "";
+                width: 100%;
+                position: absolute;
+                left: 0;
+                bottom: -11px;
+                height: 2px;
+                background-color: $lightorange;
+            }
+        }
+    }
+}
