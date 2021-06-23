@@ -24,7 +24,7 @@ const Main = () => {
                             <Link href="/" passHref>
                                 <div className={styles.discoverOurstory}>
                                     discover our story
-                            </div>
+                                </div>
                             </Link>
                         </div>
                     </section>
@@ -38,7 +38,7 @@ const Main = () => {
                                     <span>Travel with confidence</span>
                                     <div className={styles.__contentText}>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
+                                    </div>
                                 </div>
                             </div>
                             <div id={styles.storyDividerLine} />
@@ -50,7 +50,7 @@ const Main = () => {
                                     <span>Expert travel advice</span>
                                     <div className={styles.__contentText}>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
+                                    </div>
                                 </div>
                             </div>
                             <div id={styles.storyDividerLine} />
@@ -62,7 +62,7 @@ const Main = () => {
                                     <span>Environmental impact</span>
                                     <div className={styles.__contentText}>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ const Main = () => {
                                 <Link href="/" passHref>
                                     <div className={styles.exploreOurVillas}>
                                         explore our villas
-                            </div>
+                                    </div>
                                 </Link>
                             </div>
                         </section>
@@ -119,7 +119,7 @@ const Main = () => {
                                 <span>our stays</span>
                                 <h4>
                                     Luxury means stepping foot where no man has before, surrounded by an unspoiled horizon.
-                            </h4>
+                                </h4>
                             </div>
                             <div className={styles.exploreContainer}>
                                 <div className={styles.imageWrap}>
@@ -130,7 +130,7 @@ const Main = () => {
                                     <Link href="/" passHref>
                                         <div className={styles.exploreOurVillas}>
                                             explore exclusive use
-                                    </div>
+                                        </div>
                                     </Link>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ const Main = () => {
                                     <h2>water</h2>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
+                                    </p>
                                 </div>
                             </div>
                             <div className={styles.exploreItem}>
@@ -178,7 +178,7 @@ const Main = () => {
                                     <h2>water</h2>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
+                                    </p>
                                 </div>
                             </div>
                             <div className={styles.exploreItem}>
@@ -189,7 +189,7 @@ const Main = () => {
                                     <h2>air</h2>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -215,11 +215,11 @@ const Main = () => {
                             <h3>the land in a forgotten sea</h3>
                             <p>
                                 Madagascar is the fourth biggest island on earth and has a number of small peripheral islands off it’s coastline. With an unparalleled mixture of endemic wildlife and plant species in a variety of habitats from rainforest to reefs, Madagascar truly is one of the greatest biodiversity regions on earth.
-                                </p>
+                            </p>
                             <Link href="/" passHref>
                                 <div className={styles.discoverMadagascar}>
                                     Discover Madagascar
-                                    </div>
+                                </div>
                             </Link>
                         </div>
                     </div>
@@ -228,9 +228,10 @@ const Main = () => {
         )
     }
     const OurValues = () => {
+
         return (
             <>
-                <div className={styles.OurValues}>
+                <div className={styles.OurValues} id="ourvalues">
                     <div className={styles.imageContainer}>
                         <div className={styles.imageWrap}>
                             <div className={styles.imageStack}>
